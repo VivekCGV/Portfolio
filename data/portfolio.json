@@ -1,0 +1,146 @@
+{
+    "name": "Vivek",
+    "headerTaglineOne": "Hello 👋",
+    "headerTaglineTwo": "I'm Vivek - curious",
+    "headerTaglineThree": "Software devloper and Network engineer",
+    "headerTaglineFour": " based in Chennai, India.",
+    "showCursor": true,
+    "showBlog": true,
+    "darkMode": true,
+    "showResume": true,
+    "socials": [
+      {
+        "id": "1",
+        "title": "Github",
+        "link": "https://github.com/VivekCGV"
+      },
+      {
+        "id": "2",
+        "title": "LinkedIn",
+        "link": "https://www.linkedin.com/in/vivek-cg-b53285174/"
+      },
+      {
+        "id": "3",
+        "title": "Twitter",
+        "link": "https://twitter.com/vivek_cgv"
+      },
+      {
+        "id": "4",
+        "title": "Download Resume",
+        "link": "https://drive.google.com/file/d/1SNe2zO8i-pFdmwlS6NPHefIqrig6YBrU/view?usp=drive_link"
+      },
+      {
+        "id": "5",
+        "title": "Email",
+        "link": "mailto:vivekchinnaswamy6@gmail.com"
+      }
+    ],
+    "projects": [
+      {
+        "id": "1",
+        "title": "Restaurant Booking Page",
+        "description": "Web Design",
+        "imageSrc": "https://images.unsplash.com/photo-1487837647815-bbc1f30cd0d2?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8Njl8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "url": "https://vivekcgv.github.io/Restaurant_webpage/"
+      },
+      {
+        "id": "2",
+        "title": "Weather forecast",
+        "description": "Web Development",
+        "imageSrc": "https://images.unsplash.com/photo-1605153864431-a2795a1b2f95?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxjb2xsZWN0aW9uLXBhZ2V8MXwyNTY3ODl8fGVufDB8fHw%3D&auto=format&fit=crop&w=400&q=60",
+        "url": "https://65de4e63e5606741b14db22e--cheery-toffee-ecbe8a.netlify.app/"
+      },
+      {
+        "id": "3",
+        "title": "Expense Tracker",
+        "description": "Web Development",
+        "imageSrc": "https://images.unsplash.com/photo-1504083898675-c896ecdae86e?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MjJ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "url": "https://65de38a331ea713072e6e7d9--heroic-palmier-189372.netlify.app/"
+      },
+      {
+        "id": "4",
+        "title": "Food Recipe Site",
+        "description": "Web Development",
+        "imageSrc": "https://images.unsplash.com/photo-1492171983775-a51717616c0d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NjB8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "url": "http://chetanverma.com/"
+      },
+      {
+        "id": "5",
+        "title": "Voice assistant using python (source code)",
+        "description": "Development",
+        "imageSrc": "https://images.unsplash.com/photo-1534239143101-1b1c627395c5?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8NzZ8fHBhc3RlbHxlbnwwfHwwfA%3D%3D&auto=format&fit=crop&w=400&q=60",
+        "url": "https://github.com/VivekCGV/codeclause_goldentask1_voice_assistant/blob/857ecb3db362b1247a9ff30267c23ca6f263a72d/voice%20assistant.py"
+      },
+      {
+        "id": "6",
+        "title": "Flappy bird game using python (source code)",
+        "description": "Development",
+        "imageSrc": "https://images.unsplash.com/photo-1517479149777-5f3b1511d5ad?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxzZWFyY2h8MTAyfHxwYXN0ZWx8ZW58MHx8MHw%3D&auto=format&fit=crop&w=400&q=60",
+        "url": "https://github.com/VivekCGV/clodeclause_goldentask2_Flappy_bird/blob/271ac52c67f170b8bb9f1f4292ad0308e48fc57f/flappy%20bird%20game.py"
+      }
+    ],
+    "services": [
+      {
+        "id": "1",
+        "title": "Debugging",
+        "description": "Mastering JavaScript debugging for seamless code troubleshooting and error resolution, ensuring robust and error-free web applications."
+      },
+      {
+        "id": "2",
+        "title": "Web designing",
+        "description": "Elevating your online presence with our web design service, crafting visually stunning and user-centric websites that leave a lasting impression."
+      },
+      {
+        "id": "3",
+        "title": "Switch & router configuration",
+        "description": "Streamline your network infrastructure with our switch and router configuration service, ensuring optimal performance and seamless connectivity for your business."
+      },
+      {
+        "id": "4",
+        "title": "HMI configuration",
+        "description": "Optimize control and monitoring with our HMI configuration service, tailoring human-machine interfaces for seamless operation and enhanced user experience."
+      }
+    ],
+    "aboutpara": "I am responsible for creating the user interface and user experience of a website or application. This involves implementing designs provided by UI/UX designers, writing clean and efficient code using HTML, CSS, and JavaScript, and ensuring cross-browser compatibility. Collaborated with backend developers to integrate server-side logic and contribute to the overall functionality of the project. Responsible for optimizing applications for speed and responsiveness, troubleshoot and debug issues, and stay updated on emerging web technologies and best practices. Strong communication skills and an eye for design are often valuable in this role.",
+    "resume": {
+      "tagline": "👋  I'm a software developer, Network Engineer.",
+      "description": "Highly motivated Network Engineer seeking a career transition into the field of Software development. Leveraging my strong analytical and problem-solving skills, along with my technical expertise in Fullstack and Networking.",
+      "experiences": [
+        {
+          "id": "1",
+          "dates": "July 2023 - Present",
+          "type": "Internship",
+          "position": "Fullstack Engineer at Bigziel Technologies",
+          "bullets": "Worked on React applications"
+        },
+        {
+          "id": "d495c23b-4f65-479a-9b8a-cfbc1c089725",
+          "dates": "July 2021 - May 2023",
+          "type": "Full Time",
+          "position": "Substation Automation Engineer at NISSI Engineering Solutions",
+          "bullets": "Worked on switches and routers with protocols like SNMP RSTP STP HSR and PRP enhancing network reliability."
+        }
+      ],
+      "education": {
+        "universityName": "KAMARAJ COLLEGE OF ENGINEERING AND TECHNOLOGY",
+        "universityDate": "2016-2020",
+        "universityPara": "B.E in Electrical and Electronics Engineering"
+      },
+      "languages": [
+        "Javascript",
+        "HTML5",
+        "CSS",
+        "Python"
+      ],
+      "frameworks": [
+        "React",
+        "Typescript",
+        "NodeJs"
+      ],
+      "others": [
+        "Networking",
+        "SCADA,HMI",
+        "AWS"
+      ]
+    }
+  }
