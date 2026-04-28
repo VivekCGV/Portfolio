@@ -44,7 +44,7 @@ const BlogEditor = ({ post, close, refresh }) => {
   return (
     <div
       className={`fixed z-10 w-screen h-screen overflow-auto top-0 flex flex-col items-center ${
-        theme === "dark" ? "bg-black" : "bg-white"
+        theme === "dark" ? "bg-zinc-950" : "bg-white"
       }`}
     >
       <div className="container my-20">

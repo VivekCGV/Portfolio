@@ -11,7 +11,10 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
   const { theme, setTheme } = useTheme();
   const [mounted, setMounted] = useState(false);
 
-  const { name, showBlog, showResume } = data;
+  const { name, showBlog, showResume, contactEmail } = data;
+  const emailLink = contactEmail
+    ? `mailto:${contactEmail}`
+    : "mailto:vivekchinnaswamy6@gmail.com";
 
   useEffect(() => {
     setMounted(true);
@@ -64,8 +67,10 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
             </div>
             <Popover.Panel
               className={`absolute right-0 z-10 w-11/12 p-4 ${
-                theme === "dark" ? "bg-slate-800" : "bg-white"
-              } shadow-md rounded-md`}
+                theme === "dark"
+                  ? "bg-zinc-950/95 border border-white/10"
+                  : "bg-white/95 border border-black/5"
+              } shadow-2xl rounded-2xl backdrop-blur-md`}
             >
               {!isBlog ? (
                 <div className="grid grid-cols-1">
@@ -76,17 +81,13 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                   )}
                   {showResume && (
                     <Button
-                      onClick={() =>
-                        window.open("mailto:hello@chetanverma.com")
-                      }
+                      onClick={() => window.open(emailLink)}
                     >
                       Resume
                     </Button>
                   )}
 
-                  <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
-                  >
+                  <Button onClick={() => window.open(emailLink)}>
                     Contact
                   </Button>
                 </div>
@@ -107,9 +108,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
                     </Button>
                   )}
 
-                  <Button
-                    onClick={() => window.open("mailto:hello@chetanverma.com")}
-                  >
+                  <Button onClick={() => window.open(emailLink)}>
                     Contact
                   </Button>
                 </div>
@@ -120,7 +119,9 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
       </Popover>
       <div
         className={`mt-10 hidden flex-row items-center justify-between sticky ${
-          theme === "light" && "bg-white"
+          theme === "light"
+            ? "bg-white/80"
+            : "bg-zinc-950/80 border border-white/10"
         } dark:text-white top-0 z-10 tablet:flex`}
       >
         <h1
@@ -145,7 +146,7 @@ const Header = ({ handleWorkScroll, handleAboutScroll, isBlog }) => {
               </Button>
             )}
 
-            <Button onClick={() => window.open("mailto:hello@chetanverma.com")}>
+            <Button onClick={() => window.open(emailLink)}>
               Contact
             </Button>
             {mounted && theme && data.darkMode && (
